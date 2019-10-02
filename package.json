@@ -1,0 +1,17 @@
+{
+  "name": "kotlinode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "kotlin": "^1.3.50"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gradle build & node node/index.js",
+    "build":"gradle build"  
+  },
+  "author": "Rajan Garg",
+  "license": "ISC"
+}
