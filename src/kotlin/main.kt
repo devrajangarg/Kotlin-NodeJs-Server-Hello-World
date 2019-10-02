@@ -1,21 +1,14 @@
-external fun require(module:String):dynamic
+external fun require(module:String): dynamic
 
 fun main(args: Array<String>) {
     println("Hello JavaScript!")
 
-    val http = require("http")
-    val hostname = "127.0.0.1"  
-    val port = 3000
+    val express = require("express")
+    val app = express()
 
-   println("Server will try to run at http://${hostname}:${port}/")
-
-    val server = http.createServer{req, res -> 
-        res.statusCode = 200
-        res.setHeader("Content-Type", "text/plain")
-        res.end("Hello World\n")
-    }
-
-    server.listen(port, hostname, fun(){
-       println("Server running at http://${hostname}:${port}/")
+    app.get("/", {req, res->
+        res.send("Hello World")
     })
+       
+    app.listen(3000)
 }

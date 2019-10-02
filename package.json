@@ -4,12 +4,13 @@
   "description": "NodeJs Server App with kotlin",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.17.1",
     "kotlin": "^1.3.50"
   },
   "devDependencies": {},
   "scripts": {
     "start": "gradle build & node node/index.js",
-    "build":"gradle build"  
+    "build": "gradle build"
   },
   "author": "Rajan Garg",
   "license": "ISC"
