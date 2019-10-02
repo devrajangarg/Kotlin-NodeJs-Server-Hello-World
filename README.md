@@ -1,9 +1,9 @@
-# Kotlin-NodeJs-Server-Hello-World
+# Kotlin-NodeJs-Server-Starter
  This is the basic hello world nodejs server sample written in kotlin
 
 To get started with making node server app with kotlin
 
-clone this repository
+Clone this repository
 
 Now Run:-
 
