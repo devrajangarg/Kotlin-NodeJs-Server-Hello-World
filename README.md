@@ -7,10 +7,12 @@ clone this repository
 
 Now Run:-
 
-npm i
+1. npm i
 
-npm run build
+2. npm run build
 
-npm run start
+3. npm run start
 
-and go to http://localhost:3000
+and you're done
+
+now go to http://localhost:3000
