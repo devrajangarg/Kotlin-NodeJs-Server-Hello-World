@@ -4,9 +4,13 @@
 To get started with making node server app with kotlin
 
 clone this repository
-run 
+
+Now Run:-
+
 npm i
+
 npm run build
+
 npm run start
 
 and go to http://localhost:3000
