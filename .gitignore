@@ -1,7 +1,8 @@
 # Ignore Gradle project-specific cache directory
 .gradle
-node_modules
-node
 # Ignore Gradle build output directory
 build
+
+node_modules
+node
 
