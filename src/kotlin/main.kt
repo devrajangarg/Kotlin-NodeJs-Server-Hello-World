@@ -1,7 +1,10 @@
 external fun require(module:String): dynamic
 
 fun main(args: Array<String>) {
-    println("Hello JavaScript!")
+
+    val port = 3000
+
+    println("Server running on https://localhost:"+port)
 
     val express = require("express")
     val app = express()
@@ -10,5 +13,5 @@ fun main(args: Array<String>) {
         res.send("Hello World")
     })
     
-    app.listen(3000)
+    app.listen(port)
 }

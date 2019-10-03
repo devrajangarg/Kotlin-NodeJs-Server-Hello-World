@@ -1,5 +1,5 @@
 {
-  "name": "kotlinode",
+  "name": "notlinstarter",
   "version": "1.0.0",
   "description": "NodeJs Server App with kotlin",
   "main": "node/index.js",
@@ -12,9 +12,9 @@
     "delay": "2500"
   },
   "scripts": {
-    "start": "gradle build & node node/index.js",
-    "serve":"node node/index.js",
-     "build": "gradle build"
+    "start": "gradle build ",
+    "serve": "node node/index.js",
+    "build": "gradle build"
   },
   "author": "Rajan Garg",
   "license": "ISC"

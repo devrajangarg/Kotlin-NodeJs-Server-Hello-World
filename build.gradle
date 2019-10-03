@@ -33,3 +33,7 @@ compileKotlin2Js.kotlinOptions {
 clean.doFirst() {
     delete("${node_dir}")
 }
+
+task noderun(type: Exec) {
+    commandLine "cmd", "/c", "node node/index.js"
+}
