@@ -1,8 +1,0 @@
-{
-    "watch": [
-        "src/kotlin/main.kt"
-      ],
-    "events": {
-      "restart": "npm run build  & "
-    }
-}

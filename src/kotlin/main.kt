@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
 
     val port = 3000
 
-    println("Server running on https://localhost:$port")
+    println("Server running on http://localhost:$port")
 
     val express = require("express")
     val app = express()

@@ -10,8 +10,14 @@
   "devDependencies": {},
   "scripts": {
     "start": "gradle build & node node/index.js ",
-    "serve": "node node/index.js",
+    "serve": "nodemon --exec npm run start",
     "build": "gradle build"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src/"
+    ],
+    "ext": "kt"
   },
   "author": "Rajan Garg",
   "license": "ISC"
